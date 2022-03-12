@@ -1,0 +1,110 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif, Outfit;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(13, 25, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body-container {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.card-image-container {
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-top: 25px;
+    position: relative;
+}
+.card-image-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 12px;
+}
+.card-title-content > h4 {
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.card-text-container {
+    width: 250px;
+    display: table;
+}
+.card-text-content > p {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    color: hsl(215, 32%, 27%)
+}
+.card-main-content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.card-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-main-container-flexed {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.card-main-container-flexed > p {
+    margin-left: 10px;
+}
+.card-main-etherium-p {
+    color: hsl(178, 100%, 50%);
+}
+.card-main-clock-p {
+    color: hsl(215, 32%, 27%);
+}
+.card-footer-image-container {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid white;
+}
+.card-footer-image > img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.card-footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+.card-footer-creation-content > p {
+    color: hsl(215, 32%, 27%);
+}
+.card-span {
+    color: hsl(215, 51%, 70%);
+}
